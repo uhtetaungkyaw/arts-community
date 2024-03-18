@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=ART_DB;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: htet
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
